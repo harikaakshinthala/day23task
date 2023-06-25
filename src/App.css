@@ -1,0 +1,96 @@
+*{
+  background-color: rgb(3, 34, 6);
+}
+
+.App {
+  margin-top: 25px;
+  padding: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(253, 136, 181);
+}
+.card{
+  border: 1px solid black;
+  margin: 20px;
+  padding: 2%;
+  width: 300px;
+  height: max-content;
+  border-radius: 20px;
+  background-color: rgb(213, 223, 231);
+  
+}
+.card:hover{
+  box-shadow: 1px 1px 25px rgb(12, 34, 0);
+  padding: 2.2%;
+}
+.title{
+  /* border: 1px solid black; */
+  margin: 4px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+  color: rgba(9, 90, 16, 0.705);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(213, 223, 231);
+}
+.price-table{
+  /* border: 1px solid black; */
+  color: rgba(9, 90, 16, 0.705);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin: 4px;
+  text-align: center;
+  background-color: rgb(213, 223, 231);
+}
+
+span{
+  /* border: 3px solid red; */
+  font-size: xxx-large;
+  color: black;
+  font-weight: 500 !important;
+  background-color: rgb(213, 223, 231);
+}
+span:hover{
+  font-size:60px;
+}
+.description{
+  /* border: 1px solid black; */
+  margin: 4px;
+  padding-left: 10%;
+  background-color: rgb(213, 223, 231);
+  
+}
+p{
+  background-color: rgb(213, 223, 231);
+}
+hr{
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgb(51, 107, 5);
+  border: none;
+}
+
+.btn{
+  /* border: 1px solid black; */
+  margin: 4px;
+  text-align: center;
+  background-color: rgb(213, 223, 231);
+}
+
+button{
+  padding: 12px;
+  border-radius: 30px;
+  font-weight: bolder;
+  font-size: 17px;
+  border: none;
+  background-color: rgba(8, 148, 38, 0.747);
+  width: 40vh;
+}
+button:hover{
+  padding: 15px;
+  font-size: 19px;
+  /* width: 45vh; */
+  border-radius: 10px;
+}
